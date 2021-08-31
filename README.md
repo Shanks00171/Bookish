@@ -1,2 +1,2 @@
-# Bookish
-Minor Project 2
+# Bookish 
+A books trading webiste design for minor project.
