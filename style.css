@@ -1,8 +1,48 @@
 #navBar{
-    background-color: #DFD4D3;
-    padding: 10px;
-    margin: 10px;
+    background-color:white;
+    color:  #DFD4D3;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-color:brown;
+    border-style: double;
 }
 a{
-    color: black;
+    color:  brown;
+    text-shadow: black;
+    text-decoration-color: black;
+    text-decoration: black;
+}
+a:hover{
+    color:  #DFD4D3;
+}
+#logo{
+    background:url("F:/Bookish/images/Bookish_logo.png") ;
+    opacity: 0.8;
+    padding-top: 75px;
+	padding-bottom: 50px;
+    padding-left: 20px;
+	text-align: center;
+	color: #f8f8f8;
+	background-position:left;
+	background-repeat:repeat;
+	background-size:contain; 
+}
+#content{
+    position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin: 12% auto;
+	background-color: rgba(245, 240, 240, 1);
+	max-width: 660px;
+}
+footer {
+	position: fixed;
+	padding: 10px 0;
+	text-align: center;
+	bottom: 0;
+	background-color: #DFD4D3;
+	color:black;
+	width: 100%;
 }
