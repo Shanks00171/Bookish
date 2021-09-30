@@ -44,7 +44,7 @@ a:hover{
 }
 footer {
 	position: fixed;
-	padding: 10px 0;
+	margin-top: 100px;
 	text-align: center;
 	bottom: 0;
 	background-color: #DFD4D3;
@@ -68,6 +68,7 @@ footer {
       padding:20px;
       border:10px;
     align-content: center;
+    margin:50px;
   }
   div.gallery {
     margin: 5px;
