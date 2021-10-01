@@ -90,3 +90,15 @@ footer {
     padding: 15px;
     text-align: center;
   }
+  .panel-margin {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  #box{
+    background-color:#DFD4D3;
+    margin: 0px 30% 0px 30%;
+  }
+  #panelcolor{
+    color: black;
+    background-color:#DFD4D3;
+  }
