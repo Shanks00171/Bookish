@@ -97,8 +97,11 @@ footer {
   #box{
     background-color:#DFD4D3;
     margin: 0px 30% 0px 30%;
+    
   }
   #panelcolor{
     color: black;
     background-color:#DFD4D3;
+    font-family: Freestyle Script;
+    font-size: 40px;
   }
