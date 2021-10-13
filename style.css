@@ -9,6 +9,8 @@
 }
 a{
     color:  brown;
+    display: block;
+    padding: 0 80px;
 }
 #bookish,#inner{
     font-family: Freestyle Script; 
@@ -105,3 +107,64 @@ footer {
     font-family: Freestyle Script;
     font-size: 40px;
   }
+.header{
+  background-color: #fad;
+  display: flex;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  align-items: baseline;
+  padding: 2rem;
+  gap: 20rem;
+  font-size: 2rem;
+  }
+
+
+.link{
+  background: none;
+  border: none;
+  text-decoration: none;
+  padding: 0;
+  cursor: pointer;
+  color: brown;
+}
+
+.dropDown.active > .link,
+.link:hover{
+  color: rebeccapurple;
+}
+
+.dropDown{
+  position: relative;
+}
+
+.dropDownMenu{
+  position: absolute;
+  left: calc(100% - 30rem);
+  top: calc(100% + .9rem);
+  background-color: #DFD4D3;
+  padding: .5rem;
+  border-radius: .35rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 140ms ease-in-out, transform 140ms ease-in-out;
+
+}
+
+.dropDown.active > .link + .dropDownMenu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.genre-grid{
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+
+.dropDownLink{
+  display: flex;
+  flex-direction: row;
+}

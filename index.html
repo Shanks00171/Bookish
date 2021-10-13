@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css"/>
-        <script src="index.js"></script>      
+        <script src="index.js" defer></script>      
     </head>
     <body>
         <nav id="navBar" class="navbar navbar-expand-lg navbar-light ">
@@ -36,7 +36,32 @@
                   </ul>
             </div>
         </div>
-            </nav> 
+            </nav>
+        <div class='header' >
+          <a href="#" class='link' style="text-decoration: none;">Home</a>
+          <div class='dropDown' drop-down>
+            <button class='link' data-drop-down>GENRE</button>
+            <div class='dropDownMenu genre-grid'>
+                <div class='dropDownLink'>
+                 <a href="#">Art</a>
+                 <a href="#">Biography</a>
+                 <a href="#">Children</a>
+               </div>
+               <div class='dropDownLink'>
+                 <a href="#">Comics</a>
+                 <a href="#">Fantasy</a>
+                 <a href="#">Fiction</a>
+               </div>
+               <div class='dropDownLink'>
+                 <a href="#">History</a>
+                 <a href="#">Horror</a>
+                 <a href="#">Romance</a>
+              </div>               
+            </div>
+          </div>
+          
+          <a href="#" class='link' style="text-decoration: none;">About Us</a>
+        </div>
            <div  id="logo">
                <div class="container" id="inner">
                    One stop to buy or rent any book.
